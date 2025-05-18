@@ -1,30 +1,37 @@
-# Modern grocery shopping app
+# Modern Grocery Shopping App
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A responsive web application for grocery shopping with a clean, modern UI built with Next.js and Tailwind CSS.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/udit2002-cs-projects/v0-modern-grocery-shopping-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/mxxlQdAQ0Te)
+## Features
 
-## Overview
+- **Product Browsing**: Browse products by category with responsive grid layout
+- **Search Functionality**: Search products by name, description, or keywords
+- **Shopping Cart**: Add, remove, and update quantities of products in cart
+- **Favorites**: Save products to favorites for quick access
+- **Special Offers**: Automatic application of special offers and discounts
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices
+- **Persistent State**: Cart and favorites persist between sessions using localStorage
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Technologies Used
 
-## Deployment
+- **Next.js 14**: React framework with App Router
+- **React**: UI library
+- **TypeScript**: Type-safe JavaScript
+- **Tailwind CSS**: Utility-first CSS framework
+- **Lucide React**: Icon library
+- **Context API**: State management
 
-Your project is live at:
+## Setup Instructions
 
-**[https://vercel.com/udit2002-cs-projects/v0-modern-grocery-shopping-app](https://vercel.com/udit2002-cs-projects/v0-modern-grocery-shopping-app)**
+### Prerequisites
 
-## Build your app
+- Node.js 18.x or higher
+- npm or yarn or pnpm or bun
 
-Continue building your app on:
+### Installation
 
-**[https://v0.dev/chat/projects/mxxlQdAQ0Te](https://v0.dev/chat/projects/mxxlQdAQ0Te)**
+1. Clone the repository:
 
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```bash
+git clone https://github.com/yourusername/modern-grocery-shopping-app.git
+cd modern-grocery-shopping-app
